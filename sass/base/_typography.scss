@@ -1,0 +1,27 @@
+.heading {
+  &-primary {
+    font-size: 1.7rem;
+    margin-bottom: 0.8rem;
+    color: $headingColor;
+  }
+  &-secondary {
+    font-size: 0.9rem;
+    color: $headingColor;
+  }
+}
+
+em {
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: lighter;
+  color: $headingColor;
+  margin-bottom: -0.3rem;
+}
+.description {
+  font-size: 0.6rem;
+  color: $descriptionTextColor;
+  &-header {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+}
