@@ -1,14 +1,16 @@
 .card {
-  width: 18rem;
-  height: 18rem;
+  width: 15rem;
+  height: 15rem;
   &__1 {
-    width: 18rem;
-    height: 18rem;
+    background-color: lightblue;
   }
   &__2 {
+    background-color: lightcoral;
   }
   &__3 {
+    background-color: lightgreen;
   }
   &__4 {
+    background-color: lightpink;
   }
 }

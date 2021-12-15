@@ -34,6 +34,18 @@ em {
     font-size: 0.8rem;
     line-height: 1.4; }
 
+.card {
+  width: 15rem;
+  height: 15rem; }
+  .card__1 {
+    background-color: lightblue; }
+  .card__2 {
+    background-color: lightcoral; }
+  .card__3 {
+    background-color: lightgreen; }
+  .card__4 {
+    background-color: lightpink; }
+
 .feature-container {
   padding: 4rem 0;
   grid-template-columns: repeat(3, 1fr);
