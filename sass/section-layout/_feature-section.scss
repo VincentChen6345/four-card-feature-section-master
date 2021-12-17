@@ -1,5 +1,5 @@
 .feature-container {
-  padding: 4rem 0;
+  padding: 3rem 0;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: min-content min-content;
   background-color: $bgColor;
@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 2rem;
   }
 }
 .description-header {
@@ -20,4 +21,10 @@
   margin-right: auto;
 }
 .card-container {
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: repeat (2, 1fr);
+  display: grid;
+  justify-content: center;
 }
