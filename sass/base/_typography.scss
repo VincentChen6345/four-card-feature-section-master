@@ -3,6 +3,9 @@
     font-size: 1.9rem;
     margin-bottom: 0.8rem;
     color: $headingColor;
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 1.4rem;
+    }
   }
   &-secondary {
     font-size: 0.9rem;
@@ -17,12 +20,18 @@ em {
   font-weight: lighter;
   color: $headingColor;
   margin-bottom: -0.3rem;
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 1.4rem;
+  }
 }
 .description {
   font-size: 0.7rem;
   color: $descriptionTextColor;
   &-header {
     font-size: 0.8rem;
-    line-height: 1.4;
+    line-height: 1.5;
+    @media only screen and (max-width: $bp-medium) {
+      line-height: 1.6;
+    }
   }
 }
